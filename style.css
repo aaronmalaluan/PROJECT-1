@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #333;
+    background: #f5e9ff;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #3a18a7;
+    border-radius: 7px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.parent {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+
+.div1 {
+    border: 2px solid #000000;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.div1 {
+    position: relative;
+    padding: 2px 15px 1px 17px;
+}
+    
+.div2 {
+    border: 2px solid #000000;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    padding: 15%;
+}
+
+.div3 {
+    border: 2px solid #000000;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    padding: 15%;
+}
+
+.div4 {
+    border: 2px solid #000000;
+    grid-column-start: 1;
+    grid-row-start: 4;
+    padding: 15%;
+}
+
+.div5 {
+    border: 2px solid #000000;
+    grid-column-start: 1;
+    grid-row-start: 5;
+    padding: 15%;
+}
+
+.div6 {
+    border: 2px solid #000000;
+    grid-column: span 2 / span 2;
+    grid-row: span 5 / span 5;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    padding: 15%;
+}
+
+.div7 {
+    border: 2px solid #000000;
+    grid-column: span 2 / span 2;
+    grid-row: span 5 / span 5;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    padding: 15%;
+}
+        
